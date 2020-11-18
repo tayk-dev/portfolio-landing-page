@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+body {
+    background-color: #463f3a;
+}
+
+img {
+    width: 300px;
+}
+
+.pic_border {
+    background-color: #8a817c;
+    padding: 15px;
+    width: 300px;
+    max-width: 420px;
+    border-radius: 0px 30px;
+}
+
+.bubble {
+    position: absolute;
+    left: 300px;
+    width: 40%;
+    height: 100%;
+}
+
+h1 {
+    padding: 15% 0px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.circle, .diamond {
+    background-color: #fff;
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    top: -275px;
+    border-radius: 45%;
+    height: 175px;
+    width: 175px;
+}
+
+.diamond {
+    position: absolute;
+    top: -207px;
+    left: -13px;
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg);
+    border-radius: 25px 0px;
+}
+
+.circleshadow, .diamondshadow {
+    background-color: #000;
+}
+
+.circleshadow {
+    display: block;
+    position: absolute;
+    top: -275px;
+    border-radius: 45%;
+    height: 175px;
+    width: 175px;
+    box-shadow: 0px 0px 20px;
+}
+
+.diamondshadow {
+    position: absolute;
+    top: -207px;
+    left: -13px;
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg);
+    border-radius: 25px 0px;
+    box-shadow: 0px 0px 20px;
+}
+
+main {
+    clear: both;
+    position: relative;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #f4f3ee;
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    float: left;
+    position: absolute;
+    bottom: 0px;
+}
+
+.triangle {
+
+    height: 200px;
+    width: 200px;
+    float: right;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-image: linear-gradient(-45deg, #e0afa0 50%, #000,  #463f3a 51%);
+        
+}
+
+/*
+@media only screen and (min-width: 600px) {
+    header {
+        float: left;
+        width: 35%;
+        border: 1px solid red;
+    }
+
+    main {
+        clear: none;
+        float: right;
+        width: 60%;
+        border: 1px solid blue;
+        position: relative;
+        margin: auto;
+    }
+
+
+}*/
